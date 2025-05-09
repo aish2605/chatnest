@@ -91,7 +91,7 @@ function Chat() {
 
           <form onSubmit={handleSendMessage} style={{display:"flex", columnGap:"5px", flexWrap:"wrap"}}>
               <input
-              style={{height:'40px', width:"300px", border:"none",outline:"none", fontSize:"20px", paddingLeft:"10px", borderRadius:"15px"}}
+              style={{height:'40px', width:"250px", border:"none",outline:"none", fontSize:"20px", paddingLeft:"10px", borderRadius:"15px"}}
               placeholder='Enter your message'
               value={newMessage}
               onChange={(event)=>{setNewMessage(event.target.value)}}
