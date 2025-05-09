@@ -13,7 +13,7 @@
     box-shadow: 0 0 4px black;
     border-radius: 10px;
     width: 380px;
-    background-image:url(/wallpaper.webp);
+    background-image:url(../wallpaper.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
